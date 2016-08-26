@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (nonatomic, strong) MCPeerID *peerID;
+@property (weak, nonatomic) IBOutlet UITextView *logsView;
 
 @end
 

@@ -13,6 +13,9 @@
 @interface MasterViewController : UITableViewController
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+//@property (nonatomic, strong) MCSession *session;
+//@property (nonatomic, strong) MCPeerID *peerID;
+//@property (nonatomic, strong) MCNearbyServiceBrowser *serviceBrowser;
 
 
 @end
